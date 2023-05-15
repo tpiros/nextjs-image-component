@@ -4,9 +4,27 @@ export default function Home() {
     <div className="container">
       <div className="column">
         <h1>Next.js Image</h1>
-        <Image src="/img/sample.jpg" alt="Sample" width={500} height={333} />
-        <Image src="/img/sample2.jpg" alt="Sample" width={500} height={500} />
-        <Image src="/img/sample3.jpg" alt="Sample" width={500} height={306} />
+        <Image
+          src="/img/sample.jpg"
+          alt="Sample"
+          width={500}
+          height={333}
+          priority
+        />
+        <Image
+          src="/img/sample2.jpg"
+          alt="Sample"
+          width={500}
+          height={500}
+          priority
+        />
+        <Image
+          src="/img/sample3.jpg"
+          alt="Sample"
+          width={500}
+          height={306}
+          priority
+        />
       </div>
       <div className="column">
         <h1>Cloudinary Image</h1>
